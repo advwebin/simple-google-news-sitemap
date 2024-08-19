@@ -95,11 +95,16 @@ Please read [CODE_OF_CONDUCT.md](https://github.com/10up/simple-google-news-site
 
 == Changelog ==
 
+= 1.1.1 - 2024-08-20 =
+* **Changed:** Bump WordPress "tested up to" version to 6.6 (props [@QAharshalkadu](https://github.com/QAharshalkadu), [@qasumitbagthariya](https://github.com/qasumitbagthariya), [@jeffpaul](https://github.com/jeffpaul), [@dkotter](https://github.com/dkotter) via [#37](https://github.com/10up/simple-google-news-sitemap/pull/37), [#40](https://github.com/10up/simple-google-news-sitemap/pull/40), [#42](https://github.com/10up/simple-google-news-sitemap/pull/42)).
+* **Changed:** Bump WordPress minimum from 5.7 to 6.4 (props [@qasumitbagthariya](https://github.com/qasumitbagthariya), [@jeffpaul](https://github.com/jeffpaul), [@dkotter](https://github.com/dkotter) via [#40](https://github.com/10up/simple-google-news-sitemap/pull/40), [#42](https://github.com/10up/simple-google-news-sitemap/pull/42)).
+* **Developer:** Replaced `lee-dohm/no-response` with `actions/stale` to help with closing no-response/stale issues (props [@jeffpaul](https://github.com/jeffpaul), [@dkotter](https://github.com/dkotter) via [#39](https://github.com/10up/simple-google-news-sitemap/pull/39)).
+
 = 1.1.0 - 2023-08-31 =
 * **Added:** Plugin banner and image assets (props [Brooke Campbell](https://www.linkedin.com/in/brookecampbelldesign/), [@jeffpaul](https://github.com/jeffpaul) via [#26](https://github.com/10up/simple-google-news-sitemap/pull/26)).
 * **Added:** Developer documentation site generated using hookdocs (props [@iamdharmesh](https://github.com/iamdharmesh), [@dkotter](https://github.com/dkotter) via [#30](https://github.com/10up/simple-google-news-sitemap/pull/30)).
 * **Changed:** Modified the way `Core::ping_google()` responds when `wp_remote_get()` method doesn't return a `WP_Error` object for non-blocking requests (props [@kmgalanakis](https://github.com/kmgalanakis), [@brentvr](https://github.com/brentvr) via [#32](https://github.com/10up/simple-google-news-sitemap/pull/32)).
-* **Changed:** Bump WordPress "tested up to" version to 6.3 props ([@dkotter](https://github.com/dkotter) via [#35](https://github.com/10up/simple-google-news-sitemap/pull/35)).
+* **Changed:** Bump WordPress "tested up to" version to 6.3 (props [@dkotter](https://github.com/dkotter) via [#35](https://github.com/10up/simple-google-news-sitemap/pull/35)).
 * **Fixed:** Various coding standards issues (props [@peterwilsoncc](https://github.com/peterwilsoncc), [@akshitsethi](https://github.com/akshitsethi) via [#24](https://github.com/10up/simple-google-news-sitemap/pull/24)).
 * **Fixed:** Potential 404 for sitemap URL added to robots.txt (props [@peterwilsoncc](https://github.com/peterwilsoncc), [@akshitsethi](https://github.com/akshitsethi) via [#25](https://github.com/10up/simple-google-news-sitemap/pull/25)).
 * **Fixed:** Prevent PHP deprecations causing linting failures (props [@peterwilsoncc](https://github.com/peterwilsoncc), [@cadic](https://github.com/cadic) via [#28](https://github.com/10up/simple-google-news-sitemap/pull/28)).
